@@ -34,6 +34,11 @@ const userSchema = new mongoose.Schema({
          enum:[true,false],
          default:false
      }
+    //  ,
+    //  file:{
+    //         type:mongoose.Schema.Types.ObjectId,
+    //         ref:'File'
+    //  }
 
 },{timestamps:true});
 

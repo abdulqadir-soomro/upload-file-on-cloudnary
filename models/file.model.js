@@ -1,6 +1,7 @@
 const mongoose=require('mongoose');
 
 
+
 const fileSchema=new mongoose.Schema({
     filename:{
         type:String
@@ -16,7 +17,12 @@ const fileSchema=new mongoose.Schema({
     uptdate:{
         type:Date,
         default:Date.now
-    }   
+    }
+    // ,
+    // user:{
+    //     type:mongoose.Schema.Types.ObjectId,
+    //     ref:'User'
+    // }
 
 });
 
